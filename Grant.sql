@@ -8,5 +8,5 @@ GO
 CREATE USER [CATINREVServiceUser] 
   FOR LOGIN [IIS APPPOOL\DefaultAppPool]
 GO
-EXEC sp_addrolemember 'db_owner', 'CATINREVServiceUserOwner'
+EXEC sp_addrolemember 'db_owner', 'CATINREVServiceUserOwnerGift'
 GO
